@@ -1,0 +1,155 @@
+
+
+body{
+    margin: 0px;
+    padding:0px;
+}
+.first{
+    
+    width: 100%;
+    background:linear-gradient( 20deg, khaki,sandybrown,khaki);
+}
+.links{
+    text-align: right;
+   padding: 25px; 
+}
+.menue{
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+.menue:hover{
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 7px black;
+}
+/* ------------------------------------------------------------navebar^^^^^^^ */
+ .mission-row{
+    align-items: center;
+    justify-content: center;
+}
+.cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission{
+    background-color: rgba(245, 144, 28, 0.699);
+    border-bottom: 10px solid khaki;
+    border-top: 10px solid khaki;
+    box-shadow: 0px 0px 10px rgb(68, 67, 67);
+    border-radius: 50%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    ;
+}
+.mission:after{
+    content:"";
+    padding-bottom: 100%;
+    display: block;
+}
+.rsp-text{
+    
+    font-size: 3vw;
+    
+}
+.rsp-text-p{
+    font-size: 1.6vw;
+}
+/* ------------------------------------------------------------------------------------ */
+
+.half-circle-right{
+    background-color: sandybrown;
+    width: 200px;
+    height: 400px;
+    border-bottom: 20px solid khaki;
+    border-top: 20px solid khaki;
+    border-radius:  0 200px  200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.panel{
+    font-size: 26px;
+    text-shadow: 2px 3px  20px white;
+}
+.advisor-row{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advisor{
+    height:200px;
+    width:200px;
+    margin: 5px;
+    background-color:sandybrown;
+     border-radius: 50%;
+} 
+.teacher{
+    border: 2px solid sandybrown;
+    border-radius: 50%;
+    background-color: khaki;
+}
+.srv_text{
+    padding: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-image:linear-gradient( 45deg, sandybrown 0 20%,khaki 0 80%, sandybrown 0 20%);
+    
+}
+
+.pics{
+    border-radius: 15px;
+   box-shadow:  0 0 40px khaki;
+}
+.last_div{
+    background-color: sandybrown;
+}
+.cover1{
+    background-image: url(images/QURANI.jpg);
+    background-size: cover;
+
+}
+.cover2{
+    background-image: url(images/science.jpg);
+    background-size: cover;
+
+}
+
+.blend{
+background-color: sienna;
+color: white;
+mix-blend-mode: multiply;
+width: 80%;
+font-weight: 900px;
+
+}
+.outer{
+   
+    box-shadow: 0 0 20px sandybrown;
+    width: 50%;
+    padding: 45px;
+    border-radius: 25px;
+}
+.button{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    background-color: sandybrown;
+    color: white;
+    border-radius: 5px;
+}
+.gallery2{
+width:100%;
+box-shadow: 0 0 20px black;
+border-radius: 15px;
+}
